@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'simple_history.middleware.HistoryRequestMiddleware',
 ]
 
-ROOT_URLCONF = 'geneology.urls'
+ROOT_URLCONF = 'genealogy.urls'
 
 # Templates configuration
 TEMPLATES = [
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'geneology.wsgi.application'
+WSGI_APPLICATION = 'genealogy.wsgi.application'
 
 # Localization
 LANGUAGE_CODE = 'en-us'

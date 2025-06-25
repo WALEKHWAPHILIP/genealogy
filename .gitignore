@@ -2,7 +2,7 @@
 # 📦 ENVIRONMENTS & VIRTUAL ENVS
 # ========================
 .env
-geneology_venv/
+genealogy_venv/
 
 # ========================
 # 🐍 PYTHON BUILD FILES
