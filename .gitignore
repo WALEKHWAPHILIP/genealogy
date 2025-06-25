@@ -1,0 +1,38 @@
+# ========================
+# 📦 ENVIRONMENTS & VIRTUAL ENVS
+# ========================
+.env
+geneology_venv/
+
+# ========================
+# 🐍 PYTHON BUILD FILES
+# ========================
+*.py[cod]
+*.pyo
+__pycache__/
+
+# ========================
+# 🧠 DJANGO STRUCTURE
+# ========================
+
+# Optional: ignore migrations if auto-regenerating frequently
+# */migrations/
+
+# Optional: ignore static/media in dev (not recommended for prod)
+static/
+media/
+
+# ========================
+# 🧑‍💻 IDE & OS JUNK
+# ========================
+.vscode/
+.idea/
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ========================
+# 📄 OTHER COMMON FILES
+# ========================
+*.log

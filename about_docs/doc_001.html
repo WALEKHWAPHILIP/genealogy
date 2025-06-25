@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.56">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Walekhwa Tambiti leo Philip">
+
+<title>WalsoftAI-Genealogy: Ancestral Narrative Web App – Technical &amp; Cultural Blueprint</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="doc_001_files/libs/clipboard/clipboard.min.js"></script>
+<script src="doc_001_files/libs/quarto-html/quarto.js"></script>
+<script src="doc_001_files/libs/quarto-html/popper.min.js"></script>
+<script src="doc_001_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="doc_001_files/libs/quarto-html/anchor.min.js"></script>
+<link href="doc_001_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="doc_001_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="doc_001_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="doc_001_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="doc_001_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">WalsoftAI-Genealogy: Ancestral Narrative Web App – Technical &amp; Cultural Blueprint</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Walekhwa Tambiti leo Philip </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="walsoftai-genealogy-ancestral-narrative-web-app-technical-cultural-blueprint" class="level1">
+<h1>WalsoftAI-Genealogy: Ancestral Narrative Web App – Technical &amp; Cultural Blueprint</h1>
+<section id="project-overview-vision" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview-vision">1. Project Overview &amp; Vision</h2>
+<section id="project-name" class="level3">
+<h3 class="anchored" data-anchor-id="project-name">🧭 Project Name</h3>
+<p><strong>WalsoftAI-Genealogy</strong><br>
+<em>A culturally-rooted, AI-enhanced family history platform for the Luhya community and beyond.</em></p>
+<hr>
+</section>
+<section id="vision-statement" class="level3">
+<h3 class="anchored" data-anchor-id="vision-statement">🎯 Vision Statement</h3>
+<p>The WalsoftAI-Genealogy platform is a scalable web application designed to preserve, narrate, and explore African family lineage — starting with the Luhya (Bakhabi) people of Busia, Kenya. It goes beyond visual trees by using AI to generate <strong>natural language stories</strong> from family data, helping current and future generations reconnect with their ancestral roots.</p>
+<p>We aim to solve a pressing problem: as elders pass away, intergenerational knowledge — names, clans, family ties, and origin stories — is disappearing. This app ensures those stories are captured, structured, and beautifully retold.</p>
+<hr>
+</section>
+<section id="purpose" class="level3">
+<h3 class="anchored" data-anchor-id="purpose">🔍 Purpose</h3>
+<ul>
+<li>Preserve African genealogy and oral history</li>
+<li>Provide younger generations with understandable family narratives</li>
+<li>Respect African marriage structures (polygamy, remarriage)</li>
+<li>Avoid assumptions based on Western lineage models</li>
+<li>Offer an AI-powered natural storytelling interface (free, local models)</li>
+<li>Scale from one family to an entire ethnic group’s genealogical system</li>
+</ul>
+<hr>
+</section>
+<section id="core-features-mvp-phase" class="level3">
+<h3 class="anchored" data-anchor-id="core-features-mvp-phase">🔑 Core Features (MVP Phase)</h3>
+<ul>
+<li>Add/edit individuals (name, gender, clan, birth/death, location, biography)</li>
+<li>Track both <strong>maternal and paternal</strong> lineage</li>
+<li>Support <strong>multiple marriages</strong> (polygamy, divorce, remarriage)</li>
+<li>Visualize family tree structure</li>
+<li>Generate flowing <strong>ancestral stories</strong> using offline AI</li>
+<li>Prevent duplicate entries through smart matching</li>
+<li>Secure, permission-controlled editing</li>
+</ul>
+<hr>
+</section>
+<section id="what-makes-it-different" class="level3">
+<h3 class="anchored" data-anchor-id="what-makes-it-different">📦 What Makes It Different</h3>
+<ul>
+<li>AI-generated <strong>narratives</strong>, not just data</li>
+<li>Rooted in <strong>Luhya cultural structures</strong> (e.g., subclans, totems, polygamy)</li>
+<li>Designed for <strong>offline/local AI</strong>, no reliance on paid APIs</li>
+<li>Built for <strong>sustainability and collaboration</strong> across generations</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="architecture-system-modules" class="level2">
+<h2 class="anchored" data-anchor-id="architecture-system-modules">2. Architecture &amp; System Modules</h2>
+<section id="system-architecture-overview" class="level3">
+<h3 class="anchored" data-anchor-id="system-architecture-overview">🧱 System Architecture Overview</h3>
+<p>The WalsoftAI-Genealogy platform is a modular Django-based web application with layered responsibilities:</p>
+<pre class="{bash}"><code>
+[Client (Browser/UI)]
+↓
+[Frontend Layer: HTMX + Tailwind or React]
+↓
+[Django Views &amp; API Layer (DRF)]
+↓
+[Django Models → PostgreSQL Database]
+↓
+[AI Narrative Engine (local LLM wrapper)]
+</code></pre>
+<hr>
+</section>
+<section id="core-modules" class="level3">
+<h3 class="anchored" data-anchor-id="core-modules">🧩 Core Modules</h3>
+<section id="person-module" class="level4">
+<h4 class="anchored" data-anchor-id="person-module">1. <strong>Person Module</strong></h4>
+<p>Captures all details about individuals, including: - Names (first, middle, last) - Gender - Clan/Subclan - Birth/death info - Parental relationships (father, mother) - Place of origin - Free-form biography - Profile photo</p>
+</section>
+<section id="relationship-module" class="level4">
+<h4 class="anchored" data-anchor-id="relationship-module">2. <strong>Relationship Module</strong></h4>
+<p>Tracks: - Parent-child relationships (dual lineage) - Marriages (monogamous, polygamous, remarried) - Sibling inference from shared parent(s)</p>
+</section>
+<section id="marriage-module" class="level4">
+<h4 class="anchored" data-anchor-id="marriage-module">3. <strong>Marriage Module</strong></h4>
+<p>Supports: - Multiple spouses - Date of marriage and optional end - Cause of separation (death, divorce)</p>
+</section>
+<section id="story-engine-module" class="level4">
+<h4 class="anchored" data-anchor-id="story-engine-module">4. <strong>Story Engine Module</strong></h4>
+<p>Uses local AI to: - Summarize family data into readable prose - Generate biography-like outputs - Answer narrative queries like “Who is Philip?” or “Am I related to Joseph Wafula?”</p>
+</section>
+<section id="search-deduplication-module" class="level4">
+<h4 class="anchored" data-anchor-id="search-deduplication-module">5. <strong>Search &amp; Deduplication Module</strong></h4>
+<p>Prevents duplication by: - Fuzzy name matching - Birthplace and date cross-check - Aliases and nicknames - Admin-reviewed merge suggestions</p>
+</section>
+<section id="user-role-module" class="level4">
+<h4 class="anchored" data-anchor-id="user-role-module">6. <strong>User &amp; Role Module</strong></h4>
+<p>Controls: - Who can add/edit/delete people - Who can confirm relationships - Admins vs trusted family contributors - Logs of all edits for transparency</p>
+</section>
+<section id="deployment-module" class="level4">
+<h4 class="anchored" data-anchor-id="deployment-module">7. <strong>Deployment Module</strong></h4>
+<p>Handles: - Virtual environments - Gunicorn + systemd services - NGINX configuration - Static/media handling - Secure domain &amp; HTTPS setup</p>
+</section>
+<section id="ai-serving-module" class="level4">
+<h4 class="anchored" data-anchor-id="ai-serving-module">8. <strong>AI Serving Module</strong></h4>
+<p>Supports: - LLM execution (local) - Story prompt templating - Model switching (e.g., Phi-3, GPT4All, Mistral) - Optional: RAG or graph-based question answering</p>
+<hr>
+</section>
+</section>
+<section id="future-modules-optional-later-phases" class="level3">
+<h3 class="anchored" data-anchor-id="future-modules-optional-later-phases">🧪 Future Modules (Optional Later Phases)</h3>
+<ul>
+<li>Ancestral map visualizer using Leaflet or Mapbox</li>
+<li>Audio story upload + Whisper transcription</li>
+<li>Clan and totem tree visualizer</li>
+<li>Automated relationship graph traversal (e.g., “How are we related?”)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="tech-stack-tools" class="level2">
+<h2 class="anchored" data-anchor-id="tech-stack-tools">3. Tech Stack &amp; Tools</h2>
+<p>The WalsoftAI-Genealogy platform is built entirely with <strong>free and open-source tools</strong>, designed for sustainability, offline capability, and cultural sensitivity.</p>
+<hr>
+<section id="backend" class="level3">
+<h3 class="anchored" data-anchor-id="backend">🖥️ Backend</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Python 3.11+</strong></td>
+<td>Core programming language</td>
+</tr>
+<tr class="even">
+<td><strong>Django 5.x</strong></td>
+<td>Web framework for rapid development</td>
+</tr>
+<tr class="odd">
+<td><strong>Django REST Framework</strong></td>
+<td>For APIs (to mobile apps or React frontend)</td>
+</tr>
+<tr class="even">
+<td><strong>PostgreSQL</strong></td>
+<td>Primary database (supports advanced querying, JSONB fields)</td>
+</tr>
+<tr class="odd">
+<td><strong>Gunicorn</strong></td>
+<td>WSGI server for running Django in production</td>
+</tr>
+<tr class="even">
+<td><strong>NGINX</strong></td>
+<td>Reverse proxy + static/media file serving</td>
+</tr>
+<tr class="odd">
+<td><strong>Certbot (Let’s Encrypt)</strong></td>
+<td>Free SSL certificate management</td>
+</tr>
+<tr class="even">
+<td><strong>systemd</strong></td>
+<td>Service manager for Gunicorn process</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="frontend" class="level3">
+<h3 class="anchored" data-anchor-id="frontend">🎨 Frontend</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>HTMX</strong></td>
+<td>Server-driven interactivity (fast MVP)</td>
+</tr>
+<tr class="even">
+<td><strong>Tailwind CSS</strong></td>
+<td>Clean, modern styling with minimal effort</td>
+</tr>
+<tr class="odd">
+<td><strong>Alpine.js (optional)</strong></td>
+<td>Lightweight reactivity for HTMX</td>
+</tr>
+<tr class="even">
+<td><strong>React (optional future)</strong></td>
+<td>For full SPA experience or advanced interactivity</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="ainarrative-engine" class="level3">
+<h3 class="anchored" data-anchor-id="ainarrative-engine">🧠 AI/Narrative Engine</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 40%">
+<col style="width: 60%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>llama-cpp-python</strong></td>
+<td>Run free, local LLMs (e.g., Mistral, Phi-3, GPT4All)</td>
+</tr>
+<tr class="even">
+<td><strong>transformers (HuggingFace)</strong></td>
+<td>Load or run pre-trained open-source LLMs</td>
+</tr>
+<tr class="odd">
+<td><strong>LangChain (optional)</strong></td>
+<td>For chaining logic in LLM storytelling</td>
+</tr>
+<tr class="even">
+<td><strong>Jinja2</strong></td>
+<td>For story prompt templating</td>
+</tr>
+<tr class="odd">
+<td><strong>fuzzywuzzy / rapidfuzz</strong></td>
+<td>For deduplication and smart name matching</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="devops-deployment" class="level3">
+<h3 class="anchored" data-anchor-id="devops-deployment">🔐 DevOps &amp; Deployment</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>OpenSSH</strong></td>
+<td>Secure remote server access</td>
+</tr>
+<tr class="even">
+<td><strong>tmux or screen</strong></td>
+<td>Manage long-running server/AI processes</td>
+</tr>
+<tr class="odd">
+<td><strong>Supervisor (optional)</strong></td>
+<td>Monitor AI or worker services</td>
+</tr>
+<tr class="even">
+<td><strong>UFW</strong></td>
+<td>Simple firewall for server hardening</td>
+</tr>
+<tr class="odd">
+<td><strong>cron</strong></td>
+<td>Automated backups, cleanup, cert renewals</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="optional-libraries-future-integration" class="level3">
+<h3 class="anchored" data-anchor-id="optional-libraries-future-integration">🗃️ Optional Libraries (Future Integration)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 37%">
+<col style="width: 62%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>networkx</strong></td>
+<td>Graph-based relationship traversal (e.g., find common ancestors)</td>
+</tr>
+<tr class="even">
+<td><strong>Leaflet.js / Mapbox</strong></td>
+<td>Visualize migration origins (e.g., “from Bugiri, Uganda”)</td>
+</tr>
+<tr class="odd">
+<td><strong>Whisper.cpp</strong></td>
+<td>Local speech-to-text for elder audio recordings</td>
+</tr>
+<tr class="even">
+<td><strong>spaCy / NLTK</strong></td>
+<td>Text parsing or enrichment of stories</td>
+</tr>
+<tr class="odd">
+<td><strong>GraphQL</strong></td>
+<td>Alternative API layer for efficient frontend interaction</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="local-ai-model-suggestions" class="level3">
+<h3 class="anchored" data-anchor-id="local-ai-model-suggestions">🧪 Local AI Model Suggestions</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Phi-3-mini (ONNX or GGUF)</strong></td>
+<td>Lightweight, small memory footprint (~1GB)</td>
+</tr>
+<tr class="even">
+<td><strong>Mistral 7B (quantized)</strong></td>
+<td>Good quality, ~4GB in GGUF format</td>
+</tr>
+<tr class="odd">
+<td><strong>GPT4All-J</strong></td>
+<td>Versatile, community-supported</td>
+</tr>
+<tr class="even">
+<td><strong>LLaMA 2 or 3 (quantized)</strong></td>
+<td>Advanced reasoning, needs more resources</td>
+</tr>
+</tbody>
+</table>
+<p>All models must be downloaded and run using <code>llama-cpp-python</code> with no API keys required.</p>
+<hr>
+</section>
+</section>
+<section id="data-modeling-relationship-logic" class="level2">
+<h2 class="anchored" data-anchor-id="data-modeling-relationship-logic">4. Data Modeling &amp; Relationship Logic</h2>
+<p>At the heart of WalsoftAI-Genealogy is a flexible, culturally-aware data structure that can capture: - Maternal and paternal ancestry - Polygamous and sequential marriages - Migration and origin history - Free-form narrative content</p>
+<hr>
+<section id="core-models" class="level3">
+<h3 class="anchored" data-anchor-id="core-models">🧬 Core Models</h3>
+<section id="person" class="level4">
+<h4 class="anchored" data-anchor-id="person">1. <code>Person</code></h4>
+<p>Represents each individual in the genealogy database.</p>
+<div id="e124f623" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Person(models.Model):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    full_name <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">255</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    first_name <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">100</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    middle_name <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">100</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    surname <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">100</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    gender <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">10</span>, choices<span class="op">=</span>[(<span class="st">'male'</span>, <span class="st">'Male'</span>), (<span class="st">'female'</span>, <span class="st">'Female'</span>)])</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    date_of_birth <span class="op">=</span> models.DateField(null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    date_of_death <span class="op">=</span> models.DateField(null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    place_of_origin <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">255</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    clan <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">100</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    subclan <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">100</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    father <span class="op">=</span> models.ForeignKey(<span class="st">'self'</span>, null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>, on_delete<span class="op">=</span>models.SET_NULL, related_name<span class="op">=</span><span class="st">'children_by_father'</span>)</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    mother <span class="op">=</span> models.ForeignKey(<span class="st">'self'</span>, null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>, on_delete<span class="op">=</span>models.SET_NULL, related_name<span class="op">=</span><span class="st">'children_by_mother'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    biography <span class="op">=</span> models.TextField(blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    photo <span class="op">=</span> models.ImageField(upload_to<span class="op">=</span><span class="st">'photos/'</span>, null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    created_at <span class="op">=</span> models.DateTimeField(auto_now_add<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="marriage" class="level4">
+<h4 class="anchored" data-anchor-id="marriage">2. <code>Marriage</code></h4>
+<p>Captures relationships including polygamy and remarriage.</p>
+<div id="23f5add5" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Marriage(models.Model):</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    partners <span class="op">=</span> models.ManyToManyField(Person, related_name<span class="op">=</span><span class="st">'marriages'</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>    date_of_marriage <span class="op">=</span> models.DateField(null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    end_date <span class="op">=</span> models.DateField(null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    reason_for_end <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">255</span>, blank<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="event" class="level4">
+<h4 class="anchored" data-anchor-id="event">3. <code>Event</code></h4>
+<p>Captures additional facts like education, migration, or life events.</p>
+<div id="3f483889" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Event(models.Model):</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    person <span class="op">=</span> models.ForeignKey(Person, on_delete<span class="op">=</span>models.CASCADE)</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    event_type <span class="op">=</span> models.CharField(max_length<span class="op">=</span><span class="dv">100</span>)  <span class="co"># e.g., 'education', 'migration'</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    description <span class="op">=</span> models.TextField()</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    date <span class="op">=</span> models.DateField(null<span class="op">=</span><span class="va">True</span>, blank<span class="op">=</span><span class="va">True</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+</section>
+</section>
+<section id="relationship-logic" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-logic">📐 Relationship Logic</h3>
+<ul>
+<li><strong>Dual lineage</strong> is supported via <code>father</code> and <code>mother</code> foreign keys.</li>
+<li><strong>Siblings</strong> are inferred from shared parent(s).</li>
+<li><strong>Marriages</strong> can involve more than two individuals (polygamy).</li>
+<li>Children are linked only to <em>individuals</em>, not to the <code>Marriage</code> object, to avoid rigid structures.</li>
+</ul>
+<hr>
+</section>
+<section id="deduplication-and-validation" class="level3">
+<h3 class="anchored" data-anchor-id="deduplication-and-validation">🚨 Deduplication and Validation</h3>
+<p>To avoid duplicate entries (e.g., “John Okiya” vs “John Meshak Okiya”):</p>
+<ul>
+<li>Use <code>fuzzywuzzy</code> or <code>rapidfuzz</code> to compute similarity</li>
+<li>Warn users during creation: “Possible duplicate: John Meshak Okiya (b. 1950, from Busia)”</li>
+<li>Allow aliases and nicknames</li>
+</ul>
+<hr>
+</section>
+<section id="versioning-audit-trail" class="level3">
+<h3 class="anchored" data-anchor-id="versioning-audit-trail">🔄 Versioning (Audit Trail)</h3>
+<ul>
+<li>Use <code>django-simple-history</code> or <code>django-reversion</code></li>
+<li>Every edit to a <code>Person</code> or <code>Marriage</code> is tracked</li>
+<li>Admins can restore or compare changes</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="ai-integration-narrative-generation" class="level2">
+<h2 class="anchored" data-anchor-id="ai-integration-narrative-generation">5. AI Integration &amp; Narrative Generation</h2>
+<section id="purpose-1" class="level3">
+<h3 class="anchored" data-anchor-id="purpose-1">🎯 Purpose</h3>
+<p>The WalsoftAI-Genealogy platform uses local, free AI models to transform structured family data into <strong>natural, flowing stories</strong>. These narratives go beyond technical lineage charts — they bring ancestors to life in culturally grounded prose that’s understandable and memorable.</p>
+<hr>
+</section>
+<section id="key-use-cases" class="level3">
+<h3 class="anchored" data-anchor-id="key-use-cases">🧠 Key Use Cases</h3>
+<ol type="1">
+<li><strong>Generate Person-Based Narratives</strong></li>
+</ol>
+<p><em>Example</em>:<br>
+“John Meshak Okiya was born to Peter and Alice in Busia. He was the third child in a family of 12. His father also had a second wife, Nancy…”</p>
+<ol start="2" type="1">
+<li><strong>Summarize Family Lineage</strong></li>
+</ol>
+<p><em>Example</em>:<br>
+“Peter married Alice and Nancy. Alice bore five children and Nancy had seven. Together, they formed the extended household of Peter, whose own father, Dennis, was one of four siblings…”</p>
+<ol start="3" type="1">
+<li><strong>Answer Genealogical Questions</strong></li>
+</ol>
+<p><em>Examples</em>:<br>
+- “Who is Philip?”<br>
+- “Am I related to Joseph Wafula?”<br>
+- “Is Anazio Walekhwa part of my family line?”</p>
+<hr>
+</section>
+<section id="ai-tools-and-technologies" class="level3">
+<h3 class="anchored" data-anchor-id="ai-tools-and-technologies">🧰 AI Tools and Technologies</h3>
+<section id="model-runner-llama-cpp-python" class="level4">
+<h4 class="anchored" data-anchor-id="model-runner-llama-cpp-python">🛠 Model Runner: <code>llama-cpp-python</code></h4>
+<ul>
+<li>Runs local large language models (LLMs) directly on your server</li>
+<li>No internet or API required</li>
+<li>Supports <code>.gguf</code> quantized models for high performance</li>
+<li>Lightweight and production-safe</li>
+</ul>
+<section id="installation" class="level5">
+<h5 class="anchored" data-anchor-id="installation">Installation:</h5>
+<pre class="{bash}"><code>pip install llama-cpp-python</code></pre>
+</section>
+<section id="example-integration" class="level5">
+<h5 class="anchored" data-anchor-id="example-integration">Example Integration:</h5>
+<div id="1cc2ed92" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> llama_cpp <span class="im">import</span> Llama</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>llm <span class="op">=</span> Llama(model_path<span class="op">=</span><span class="st">"/models/phi3.gguf"</span>, n_ctx<span class="op">=</span><span class="dv">2048</span>)</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>prompt <span class="op">=</span> render_template(<span class="st">"person_story_prompt.jinja"</span>, context_data)</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>output <span class="op">=</span> llm(prompt)[<span class="st">"choices"</span>][<span class="dv">0</span>][<span class="st">"text"</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<hr>
+</section>
+</section>
+</section>
+<section id="primary-model-phi-3-mini" class="level3">
+<h3 class="anchored" data-anchor-id="primary-model-phi-3-mini">🧠 Primary Model: <strong>Phi-3 Mini</strong></h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Model Name</td>
+<td><code>Phi-3 Mini (gguf)</code></td>
+</tr>
+<tr class="even">
+<td>Size</td>
+<td>~1.8GB</td>
+</tr>
+<tr class="odd">
+<td>Speed</td>
+<td>Very fast on low-resource CPUs</td>
+</tr>
+<tr class="even">
+<td>Quality</td>
+<td>Excellent for short narratives</td>
+</tr>
+<tr class="odd">
+<td>Hosting</td>
+<td>Self-hosted, local-only</td>
+</tr>
+</tbody>
+</table>
+<p>Store models in: <code>/home/philip/models/phi3-mini.gguf</code></p>
+<hr>
+</section>
+<section id="prompt-templating" class="level3">
+<h3 class="anchored" data-anchor-id="prompt-templating">📋 Prompt Templating</h3>
+<p>Narrative prompts are built using <strong>Jinja2</strong>, drawing from the <code>Person</code>, <code>Marriage</code>, and <code>Event</code> models.</p>
+<section id="example-prompt-template" class="level4">
+<h4 class="anchored" data-anchor-id="example-prompt-template">Example Prompt Template:</h4>
+<pre class="{jinja2}"><code>{{ person.full_name }} was born to {{ person.father.full_name }} and {{ person.mother.full_name }} in {{ person.place_of_origin }}.
+He was the {{ person.birth_order }} child in a family of {{ person.siblings_count }}.
+{{ person.father.full_name }} had {{ father_spouse_count }} spouses including {{ father_other_spouses }}.
+{{ person.full_name }}'s grandfather, {{ paternal_grandfather }}, came from {{ paternal_origin }} and was known as a {{ ancestor_occupation }}.</code></pre>
+<hr>
+</section>
+</section>
+<section id="story-handling" class="level3">
+<h3 class="anchored" data-anchor-id="story-handling">🔁 Story Handling</h3>
+<ul>
+<li><strong>On-demand story generation</strong>: triggered via button or query</li>
+<li><strong>Stored summaries</strong>: saved into a <code>Person.story</code> field after generation</li>
+<li><strong>Editable</strong>: users can refine the AI-generated narrative if needed</li>
+</ul>
+<hr>
+</section>
+<section id="query-handling" class="level3">
+<h3 class="anchored" data-anchor-id="query-handling">🔎 Query Handling</h3>
+<p>All genealogical queries (e.g., “Am I related to X?”) are processed in two stages:</p>
+<ol type="1">
+<li><strong>Data Traversal</strong>: use relationship logic (parent → grandparent, etc.) to find connection path</li>
+<li><strong>Narrative Generation</strong>: AI turns the results into readable explanations</li>
+</ol>
+<hr>
+</section>
+<section id="narrative-quality-checks" class="level3">
+<h3 class="anchored" data-anchor-id="narrative-quality-checks">🧠 Narrative Quality Checks</h3>
+<ul>
+<li>All prompts include fallback handling (e.g., unknown parents)</li>
+<li>Generated text is post-processed to fix common AI grammar issues</li>
+<li>Stories are tied to structured data — updates will refresh stories when requested</li>
+</ul>
+<hr>
+</section>
+<section id="model-storage-runtime" class="level3">
+<h3 class="anchored" data-anchor-id="model-storage-runtime">🗃 Model Storage &amp; Runtime</h3>
+<ul>
+<li>Store models in <code>/home/philip/models/</code></li>
+<li>Load models at boot or on-demand using <code>supervisor</code> or <code>systemd</code></li>
+<li>LLM runs on localhost and exposes a function call or minimal API</li>
+</ul>
+<hr>
+</section>
+<section id="security-and-privacy" class="level3">
+<h3 class="anchored" data-anchor-id="security-and-privacy">🔐 Security and Privacy</h3>
+<ul>
+<li>Stories are never sent to external APIs</li>
+<li>All AI runs locally to preserve family privacy</li>
+<li>Role-based access controls prevent unauthorized generation/editing</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="deployment-server-setup" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-server-setup">6. Deployment &amp; Server Setup</h2>
+<p>This platform is designed to run on a secure, self-managed Ubuntu server using your own hosting infrastructure — no cloud lock-in, no external dependencies.</p>
+<hr>
+<section id="server-requirements" class="level3">
+<h3 class="anchored" data-anchor-id="server-requirements">🖥️ Server Requirements</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Component</th>
+<th>Recommended</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>OS</td>
+<td>Ubuntu 22.04 or 24.04 LTS</td>
+</tr>
+<tr class="even">
+<td>RAM</td>
+<td>Minimum 4 GB (8 GB preferred for AI models)</td>
+</tr>
+<tr class="odd">
+<td>CPU</td>
+<td>2+ vCPUs (4 for smoother AI model runtime)</td>
+</tr>
+<tr class="even">
+<td>Disk</td>
+<td>20 GB minimum (plus 5–10 GB for models/media)</td>
+</tr>
+<tr class="odd">
+<td>Access</td>
+<td>Full SSH access with sudo privileges</td>
+</tr>
+<tr class="even">
+<td>Public IP</td>
+<td>e.g.&nbsp;<code>193.71.134.212</code> (confirmed ✅)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="directory-structure" class="level3">
+<h3 class="anchored" data-anchor-id="directory-structure">📂 Directory Structure</h3>
+<pre class="{bash}"><code>/home/philip/
+  └── apps/
+      └── genealogy/             # Django project
+      └── models/                # AI models (gguf)
+      └── logs/                  # Gunicorn, Nginx logs
+      └── static/                # Static files
+      └── media/                 # Uploaded files</code></pre>
+<hr>
+</section>
+<section id="core-software-stack" class="level3">
+<h3 class="anchored" data-anchor-id="core-software-stack">⚙️ Core Software Stack</h3>
+<p>Install with:</p>
+<pre class="{bash}"><code>sudo apt update &amp;&amp; sudo apt install -y \
+python3 python3-venv python3-pip \
+nginx ufw curl git unzip wget \
+postgresql postgresql-contrib \
+certbot python3-certbot-nginx \
+tmux</code></pre>
+<hr>
+</section>
+<section id="python-django-setup" class="level3">
+<h3 class="anchored" data-anchor-id="python-django-setup">🐍 Python &amp; Django Setup</h3>
+<pre class="{bash}"><code>cd ~/apps
+python3 -m venv genealogy_venv
+source genealogy_venv/bin/activate
+
+pip install --upgrade pip
+pip install django djangorestframework psycopg2-binary \
+llama-cpp-python jinja2 fuzzywuzzy django-simple-history</code></pre>
+<hr>
+</section>
+<section id="gunicorn-service" class="level3">
+<h3 class="anchored" data-anchor-id="gunicorn-service">🔌 Gunicorn Service</h3>
+<p>Create service:</p>
+<pre class="{bash}"><code>sudo nano /etc/systemd/system/genealogy_gunicorn.service</code></pre>
+<p>Paste:</p>
+<pre class="{ini}"><code>[Unit]
+Description=Gunicorn daemon for Genealogy App
+After=network.target
+
+[Service]
+User=philip
+Group=www-data
+WorkingDirectory=/home/philip/apps/genealogy
+ExecStart=/home/philip/apps/genealogy_venv/bin/gunicorn \
+    --access-logfile - \
+    --workers 3 \
+    --bind unix:/run/genealogy.sock \
+    genealogy.wsgi:application
+
+[Install]
+WantedBy=multi-user.target</code></pre>
+<p>Then:</p>
+<pre class="{bash}"><code>sudo systemctl start genealogy_gunicorn
+sudo systemctl enable genealogy_gunicorn</code></pre>
+<hr>
+</section>
+<section id="nginx-configuration" class="level3">
+<h3 class="anchored" data-anchor-id="nginx-configuration">🌐 NGINX Configuration</h3>
+<p>Create config:</p>
+<pre class="{bash}"><code>sudo nano /etc/nginx/sites-available/genealogy</code></pre>
+<p>Paste:</p>
+<pre class="{nginx}"><code>server {
+    listen 80;
+    server_name genealogy.walsoftai.com;
+
+    location /static/ {
+        alias /home/philip/apps/genealogy/static/;
+    }
+
+    location /media/ {
+        alias /home/philip/apps/genealogy/media/;
+    }
+
+    location / {
+        proxy_pass http://unix:/run/genealogy.sock;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+
+    access_log /home/philip/apps/logs/genealogy_access.log;
+    error_log /home/philip/apps/logs/genealogy_error.log;
+}</code></pre>
+<p>Enable &amp; restart:</p>
+<pre class="{bash}"><code>sudo ln -s /etc/nginx/sites-available/genealogy /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx</code></pre>
+<hr>
+</section>
+<section id="ssl-via-lets-encrypt" class="level3">
+<h3 class="anchored" data-anchor-id="ssl-via-lets-encrypt">🔐 SSL via Let’s Encrypt</h3>
+<pre class="{bash}"><code>sudo certbot --nginx -d genealogy.walsoftai.com
+sudo certbot renew --dry-run</code></pre>
+<hr>
+</section>
+<section id="ai-model-setup" class="level3">
+<h3 class="anchored" data-anchor-id="ai-model-setup">🧠 AI Model Setup</h3>
+<p>Download your AI model (e.g., Phi-3 Mini) from Hugging Face:</p>
+<pre class="{bash}"><code>mkdir ~/apps/models
+cd ~/apps/models
+wget https://huggingface.co/microsoft/Phi-3-mini/resolve/main/phi-3-mini.gguf</code></pre>
+<hr>
+</section>
+<section id="useful-tools" class="level3">
+<h3 class="anchored" data-anchor-id="useful-tools">🧪 Useful Tools</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>tmux</code></td>
+<td>Run persistent LLM processes</td>
+</tr>
+<tr class="even">
+<td><code>supervisor</code></td>
+<td>(Optional) Manage LLM or custom scripts</td>
+</tr>
+<tr class="odd">
+<td><code>namei -l path</code></td>
+<td>Debug NGINX/static/media permissions</td>
+</tr>
+<tr class="even">
+<td><code>tail -n 50 logfile</code></td>
+<td>Monitor logs</td>
+</tr>
+<tr class="odd">
+<td><code>ufw allow</code></td>
+<td>Open firewall ports</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="daily-maintenance-tips" class="level3">
+<h3 class="anchored" data-anchor-id="daily-maintenance-tips">🔄 Daily Maintenance Tips</h3>
+<ul>
+<li><p>Backup PostgreSQL:</p>
+<pre class="{bash}"><code>pg_dump genealogy_db &gt; backup_$(date +%F).sql</code></pre></li>
+<li><p>Check static/media permissions:</p>
+<pre class="{bash}"><code>sudo chmod -R o+rX /home/philip/apps/genealogy/static
+sudo chmod -R o+rX /home/philip/apps/genealogy/media</code></pre></li>
+<li><p>Rotate logs and clear AI cache periodically</p></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="data-integrity-roles-checks-and-balances" class="level2">
+<h2 class="anchored" data-anchor-id="data-integrity-roles-checks-and-balances">7. Data Integrity, Roles &amp; Checks and Balances</h2>
+<p>In a collaborative, culturally sensitive genealogy platform, <strong>data correctness, trust, and accountability</strong> are critical. This section defines how WalsoftAI-Genealogy maintains clean, accurate, and respectful family data.</p>
+<hr>
+<section id="key-risks-we-must-prevent" class="level3">
+<h3 class="anchored" data-anchor-id="key-risks-we-must-prevent">🧾 Key Risks We Must Prevent</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 68%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>❌ Duplicate entries</td>
+<td>Same person added with variations (e.g., “John Okiya” vs “Meshak John Okiya”)</td>
+</tr>
+<tr class="even">
+<td>❌ Inconsistent lineage</td>
+<td>Conflicting parent-child relationships</td>
+</tr>
+<tr class="odd">
+<td>❌ Unauthorized editing</td>
+<td>Unverified users modifying sensitive ancestral records</td>
+</tr>
+<tr class="even">
+<td>❌ Data loss or corruption</td>
+<td>System errors or accidental deletions</td>
+</tr>
+<tr class="odd">
+<td>❌ Culturally inappropriate assumptions</td>
+<td>Imposing Western rules (e.g., monogamy-only structures)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="strategies-for-accuracy-and-safety" class="level3">
+<h3 class="anchored" data-anchor-id="strategies-for-accuracy-and-safety">🛡️ Strategies for Accuracy and Safety</h3>
+<section id="smart-duplicate-detection" class="level4">
+<h4 class="anchored" data-anchor-id="smart-duplicate-detection">✅ 1. Smart Duplicate Detection</h4>
+<ul>
+<li>Fuzzy matching using <code>fuzzywuzzy</code> on:
+<ul>
+<li>Full name variants</li>
+<li>Nicknames / aliases</li>
+<li>Place of origin + DOB range</li>
+</ul></li>
+<li>Prompts user during entry:<br>
+<em>“This person may already exist: Meshak Okiya, born in Busia. Do you want to review this record instead?”</em></li>
+</ul>
+</section>
+<section id="aliases-spellings-support" class="level4">
+<h4 class="anchored" data-anchor-id="aliases-spellings-support">✅ 2. Aliases &amp; Spellings Support</h4>
+<ul>
+<li>Store alternative names in a <code>Person.aliases</code> JSONField</li>
+<li>Capture tribal or religious name variations</li>
+</ul>
+</section>
+<section id="structured-relationships" class="level4">
+<h4 class="anchored" data-anchor-id="structured-relationships">✅ 3. Structured Relationships</h4>
+<ul>
+<li>Each person has explicit <code>mother</code> and <code>father</code></li>
+<li>Children are inferred from reverse links</li>
+<li>Siblings are calculated dynamically (same parent(s))</li>
+</ul>
+</section>
+<section id="polygamy-sequential-marriage-support" class="level4">
+<h4 class="anchored" data-anchor-id="polygamy-sequential-marriage-support">✅ 4. Polygamy &amp; Sequential Marriage Support</h4>
+<ul>
+<li>Multiple spouses linked via <code>Marriage</code> model</li>
+<li>Each <code>Marriage</code> has metadata (start/end date, reason)</li>
+<li>Children are not bound to a specific <code>Marriage</code>, but to parents directly</li>
+</ul>
+</section>
+<section id="admin-merge-tool" class="level4">
+<h4 class="anchored" data-anchor-id="admin-merge-tool">✅ 5. Admin Merge Tool</h4>
+<ul>
+<li>Admin dashboard suggests likely duplicates</li>
+<li>Option to “Merge A into B”, showing:
+<ul>
+<li>Field conflicts</li>
+<li>Relationship overlaps</li>
+<li>Confirm or override decision</li>
+</ul></li>
+</ul>
+</section>
+<section id="edit-history-versioning" class="level4">
+<h4 class="anchored" data-anchor-id="edit-history-versioning">✅ 6. Edit History &amp; Versioning</h4>
+<ul>
+<li>Use <code>django-simple-history</code> to track all changes to:
+<ul>
+<li>Person</li>
+<li>Marriage</li>
+<li>Event</li>
+</ul></li>
+<li>Changes are logged with timestamp and user info</li>
+<li>Admins can view or restore previous versions</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="roles-permissions" class="level3">
+<h3 class="anchored" data-anchor-id="roles-permissions">👥 Roles &amp; Permissions</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Role</th>
+<th>Capabilities</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Admin</strong></td>
+<td>Full control: add/edit/delete/merge, approve users, generate stories</td>
+</tr>
+<tr class="even">
+<td><strong>Contributor</strong></td>
+<td>Add/edit family members, submit corrections, cannot delete or merge</td>
+</tr>
+<tr class="odd">
+<td><strong>Viewer</strong></td>
+<td>Read-only access to trees and narratives</td>
+</tr>
+<tr class="even">
+<td><strong>Research Mode (future)</strong></td>
+<td>External historians can browse de-identified data for cultural studies</td>
+</tr>
+</tbody>
+</table>
+<p>All roles are assigned via Django Admin or a custom user management panel.</p>
+<hr>
+</section>
+<section id="security-controls" class="level3">
+<h3 class="anchored" data-anchor-id="security-controls">🛡️ Security Controls</h3>
+<ul>
+<li>Strong password policy</li>
+<li>CAPTCHA for public forms (if exposed)</li>
+<li>Two-step verification (future enhancement)</li>
+<li>Role-based view restrictions</li>
+<li>Auto-log out after idle period</li>
+</ul>
+<hr>
+</section>
+<section id="integrity-checks-periodic" class="level3">
+<h3 class="anchored" data-anchor-id="integrity-checks-periodic">🔁 Integrity Checks (Periodic)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 26%">
+<col style="width: 42%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Check</th>
+<th>Frequency</th>
+<th>Method</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Duplicate name/person</td>
+<td>Weekly</td>
+<td>Fuzzy match scan</td>
+</tr>
+<tr class="even">
+<td>Orphaned records (no parent)</td>
+<td>Monthly</td>
+<td>Query + admin prompt</td>
+</tr>
+<tr class="odd">
+<td>Broken relationships</td>
+<td>Daily</td>
+<td>Validation rules on save</td>
+</tr>
+<tr class="even">
+<td>Stories missing or outdated</td>
+<td>Monthly</td>
+<td>Regenerate using updated templates</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="backups-recovery" class="level3">
+<h3 class="anchored" data-anchor-id="backups-recovery">🗂️ Backups &amp; Recovery</h3>
+<ul>
+<li>PostgreSQL backups run via <code>cron</code> daily</li>
+<li>Static/media folder zipped weekly</li>
+<li>AI model files backed up manually on change</li>
+<li>Backups stored in: <code>/home/philip/apps/backup/</code></li>
+<li>Recovery process is documented in <code>README.md</code></li>
+</ul>
+</section>
+</section>
+<section id="roadmap-development-phases" class="level2">
+<h2 class="anchored" data-anchor-id="roadmap-development-phases">8. Roadmap &amp; Development Phases</h2>
+<p>The WalsoftAI-Genealogy platform is intentionally structured for long-term growth. Below is the development roadmap, broken into clear, progressive phases.</p>
+<hr>
+<section id="phase-1-core-mvp-family-tree-editor" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1-core-mvp-family-tree-editor">🚀 Phase 1: Core MVP (Family Tree + Editor)</h3>
+<p>✅ Goals: - Basic person data entry (name, gender, clan, photo) - Add/edit/delete individuals - Track parents, spouses, children - Dual-lineage support (mother and father) - Visual tree view using HTMX or React - Admin-protected backend - Fuzzy matching to prevent duplicate entries</p>
+<p>📦 Outputs: - Family tree builder interface - Data model with integrity controls - Basic backup and log structure</p>
+<hr>
+</section>
+<section id="phase-2-ai-narrative-engine" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2-ai-narrative-engine">📜 Phase 2: AI Narrative Engine</h3>
+<p>✅ Goals: - Generate flowing, readable biographies using local AI - Model selection: <strong>Phi-3 Mini</strong> - Prompt templating via Jinja2 - Store generated story in DB (<code>Person.story</code>) - Edit/refresh story manually - CLI or API-based LLM wrapper</p>
+<p>📦 Outputs: - Story-generation engine - Prompt template system - Story editor in UI</p>
+<hr>
+</section>
+<section id="phase-3-ancestral-qa-system" class="level3">
+<h3 class="anchored" data-anchor-id="phase-3-ancestral-qa-system">🧠 Phase 3: Ancestral Q&amp;A System</h3>
+<p>✅ Goals: - Handle natural questions like: - “Who is Philip?” - “Am I related to X?” - Parse query → search DB → generate response - Use graph traversal to trace relationships - Respond via AI in full sentences</p>
+<p>📦 Outputs: - Q&amp;A form or chat-like interface - Simple relationship graph backend - Connection explainer logic</p>
+<hr>
+</section>
+<section id="phase-4-cultural-extensions" class="level3">
+<h3 class="anchored" data-anchor-id="phase-4-cultural-extensions">🌍 Phase 4: Cultural Extensions</h3>
+<p>✅ Goals: - Add place of origin maps (e.g., Bugiri, Uganda) - Clan/subclan relationships - Cultural notes (e.g., totems, rituals, idioms) - Elders’ audio stories + transcription (Whisper) - Browse by subclan, migration path, or surname root</p>
+<p>📦 Outputs: - Map viewer (Leaflet.js) - Audio-to-text converter - Clan registry model</p>
+<hr>
+</section>
+<section id="phase-5-multi-family-community-mode" class="level3">
+<h3 class="anchored" data-anchor-id="phase-5-multi-family-community-mode">🤝 Phase 5: Multi-Family &amp; Community Mode</h3>
+<p>✅ Goals: - Multi-family support (each with own namespace) - Invite family members to contribute - Role-based dashboards - User registration + moderation - Community leaderboard for contributions</p>
+<p>📦 Outputs: - Registration system - Contribution history tracker - Family selector in dashboard</p>
+<hr>
+</section>
+<section id="phase-6-advanced-features-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="phase-6-advanced-features-optimization">🧪 Phase 6: Advanced Features &amp; Optimization</h3>
+<p>✅ Goals: - Merge suggestion dashboard - Conflict resolution tools - Relationship tracing via networkx - Admin analytics: growth, accuracy, usage</p>
+<p>📦 Outputs: - AI-augmented moderation dashboard - Integrity scoring system - Timeline and statistics view</p>
+<hr>
+</section>
+</section>
+<section id="long-term-vision" class="level2">
+<h2 class="anchored" data-anchor-id="long-term-vision">🧭 Long-Term Vision</h2>
+<ul>
+<li>Scale across Luhya clans and other ethnic groups</li>
+<li>Become a cultural preservation platform for Kenya and Africa</li>
+<li>Publish family storybooks, clan trees, and oral histories</li>
+<li>Train AI on Luhya dialect stories for preservation</li>
+</ul>
+<p>The roadmap remains open to revision — but the structure ensures smooth growth without technical debt.</p>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
