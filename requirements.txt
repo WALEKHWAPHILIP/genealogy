@@ -1,0 +1,23 @@
+# Core Django & API Framework
+django>=5.2
+djangorestframework
+
+# Database
+psycopg2-binary
+
+# AI & Storytelling
+llama-cpp-python
+jinja2
+
+# Data Handling & Utilities
+fuzzywuzzy
+python-dotenv
+
+# Version History / Admin Tools
+django-simple-history
+
+# Image Handling
+Pillow
+
+# Optional: CMake for llama-cpp (Windows support)
+cmake

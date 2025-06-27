@@ -1,0 +1,52 @@
+code,label,category,description,is_active
+birth,Birth,Life,,TRUE
+death,Death,Life,,TRUE
+baptism,Baptism,Spiritual,,TRUE
+burial,Burial,Life,,TRUE
+initiation,Initiation Rite,Cultural,,TRUE
+naming,Naming Ceremony,Cultural,,TRUE
+circumcision,Circumcision,Cultural,,TRUE
+marriage,Marriage,Marital,,TRUE
+remarriage,Remarriage,Marital,,TRUE
+divorce,Divorce,Marital,,TRUE
+dowry,Dowry Negotiation,Marital,,TRUE
+widowhood,Widowhood,Marital,,TRUE
+separation,Cultural Separation,Marital,,TRUE
+adoption,Adoption,Life,,TRUE
+education,Formal Education,Education,,TRUE
+graduation,Graduation,Education,,TRUE
+scholarship,Scholarship Awarded,Education,,TRUE
+apprenticeship,Apprenticeship,Education,,TRUE
+mentorship,Mentorship,Education,,TRUE
+work,Employment Start,Economic,,TRUE
+business_start,Business/Trade Start,Economic,,TRUE
+promotion,Promotion or Title,Economic,,TRUE
+retirement,Retirement,Economic,,TRUE
+migration,Migration,Migration,,TRUE
+displacement,Forced Displacement,Migration,,TRUE
+return_migration,Return to Homeland,Migration,,TRUE
+homestead_creation,New Homestead,Migration,,TRUE
+refugee_status,Declared Refugee,Migration,,TRUE
+conversion,Religious Conversion,Spiritual,,TRUE
+ordination,Ordination (Pastor/Elder),Spiritual,,TRUE
+pilgrimage,"Pilgrimage (e.g., Mecca, Namugongo)",Spiritual,,TRUE
+confirmation,Confirmation (Christianity),Spiritual,,TRUE
+religious_role,Became Religious Leader,Spiritual,,TRUE
+excommunication,Excommunication,Spiritual,,TRUE
+clan_transfer,Clan Transfer or Adoption,Cultural,,TRUE
+totem_assignment,Totem/Animal Assigned,Cultural,,TRUE
+cultural_festival,Participated in Festival,Cultural,,TRUE
+ancestral_ritual,Ancestral Ritual Performed,Cultural,,TRUE
+title_award,Community Title Awarded,Recognition,,TRUE
+chief_appointment,Appointed Chief or Elder,Recognition,,TRUE
+veteran_status,Military Service,Recognition,,TRUE
+community_service,Community Service,Recognition,,TRUE
+heir_appointment,Declared Family Heir,Recognition,,TRUE
+council_membership,Joined Clan Council,Recognition,,TRUE
+illness,Major Illness,Health,,TRUE
+healing,Healing by Elder/Clinic,Health,,TRUE
+mental_health,Mental Health Crisis,Health,,TRUE
+hospitalization,Hospital Admission,Health,,TRUE
+accident,Accident/Injury,Health,,TRUE
+guardian_assigned,Assigned Guardian,Family,,TRUE
+custom,Custom (Uncategorized),Custom,,TRUE
